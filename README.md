@@ -1,11 +1,11 @@
 <!-- Cassiiopeia's standout GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160&section=header&text=Cassiiopeia&fontSize=45&fontAlign=70&fontAlignY=40&desc=Backend%20%26%20AI%20Engineer&descAlign=70&descAlignY=70&v=1" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160&section=header&text=Cassiiopeia&fontSize=45&fontAlign=70&fontAlignY=40&desc=Backend%20and%20AI%20Engineer&descAlign=70&descAlignY=70&v=2" alt="header"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2200&pause=1100&color=6A5ACD&center=true&vCenter=true&width=420&lines=Hi+I'm+Suh+Saechan+%7C;Backend%2F+Engineer+%40+Somansa;Side+project+lover+%F0%9F%8E%89;Let%E2%80%99s+build+something+awesome!" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2200&pause=1100&color=6A5ACD&center=true&vCenter=true&width=420&lines=Hi+I'm+Suh+Saechan+%7C;Backend%2F+Engineer+%40+Somansa;Side+project+lover+%F0%9F%8E%89;Let%E2%80%99s+build+something+awesome!&v=2" alt="typing"/>
 </p>
 
 <p align="center">
@@ -23,6 +23,7 @@
 - **Java & Spring Boot 기반 백엔드 개발자**  
 - **React, Flutter, Node.js, TypeScript 등 풀스택 경험**
 - **활동적인 사이드 프로젝트 러버**
+
 ---
 
 ## 🛠️ Tech Stack
@@ -81,7 +82,7 @@
 ## 📈 My GitHub Life
 
 <p align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160§ion=header&text=Cassiiopeia&fontSize=45&fontAlign=70&fontAlignY=40&desc=Backend%20%26%20AI%20Engineer&descAlign=70&descAlignY=70&v=2" alt="header"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cassiiopeia&theme=react-dark" alt="activity graph" width="98%"/>
 </p>
 
 <p align="center">
@@ -93,9 +94,9 @@
 </p>
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake-dark.svg?v=2" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg?v=2" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg?v=2" />
   </picture>
 </p>
 
@@ -111,5 +112,5 @@
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=100&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=100&section=footer&v=2" alt="footer"/>
 </p>
