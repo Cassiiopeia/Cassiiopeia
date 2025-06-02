@@ -13,23 +13,35 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Generate snake SVG
-        uses: Sutil/snk@master
+        uses: Platane/snk/svg-only@v3
         with:
-            github_user_name: Cassiiopeia
-            svg_out_path: output/github-contribution-grid-snake.svg
-            snake_color: 'blue'
+          github_user_name: Cassiiopeia
+          outputs: |
+            output/github-contribution-grid-snake.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Debug file creation
+        run: |
+          echo "Listing files in workspace:"
+          ls -la
+          echo "Listing files in dist/ (if exists):"
+          ls -la dist/ || true
+          echo "Listing files in output/ (if exists):"
+          ls -la output/ || true
       - name: Push to output branch
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git checkout output || git checkout -b output
           mkdir -p output
-          mv dist/github-contribution-grid-snake.svg output/ || true
-          mv dist/github-contribution-grid-snake-dark.svg output/ || true
+          mv output/github-contribution-grid-snake*.svg output/ || true
           git add output/
-          git commit -m "Update snake animation" || true
-          git push origin output --force
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update snake animation"
+            git push origin output --force
+          else
+            echo "No changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
