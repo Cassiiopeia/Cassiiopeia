@@ -1,0 +1,27 @@
+name: Generate Snake Animation
+on:
+  schedule:
+    - cron: "0 0 * * *" # 매일 자정에 실행
+  push:
+    branches: [ main ] # main 브랜치에 푸시할 때도 실행
+  workflow_dispatch: # 수동 실행 가능
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: Cassiiopeia
+          outputs: |
+            output/github-contribution-grid-snake.svg
+      - name: Push to output branch
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git checkout output || git checkout -b output
+          mkdir -p output
+          mv dist/github-contribution-grid-snake.svg output/
+          git add output/github-contribution-grid-snake.svg
+          git commit -m "Update snake animation"
+          git push origin output --force
