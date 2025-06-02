@@ -81,7 +81,7 @@
 ## 📈 My GitHub Life
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cassiiopeia&theme=react-dark" alt="activity graph" width="98%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160§ion=header&text=Cassiiopeia&fontSize=45&fontAlign=70&fontAlignY=40&desc=Backend%20%26%20AI%20Engineer&descAlign=70&descAlignY=70&v=2" alt="header"/>
 </p>
 
 <p align="center">
@@ -92,7 +92,11 @@
   <img src="https://github-profile-trophy.vercel.app/?username=Cassiiopeia&theme=gruvbox&no-bg=true&margin-w=10"/>
 </p>
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg" />
+    <img alt="snake animation" src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg" />
+  </picture>
 </p>
 
 ---
