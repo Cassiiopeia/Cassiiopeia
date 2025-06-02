@@ -1,11 +1,11 @@
 <!-- Cassiiopeia's standout GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=160&section=header&text=Cassiiopeia&fontSize=45&fontAlign=70&fontAlignY=40&desc=Backend%20%26%20AI%20Engineer&descAlign=70&descAlignY=70" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160&section=header&text=Cassiiopeia&fontSize=45&fontAlign=70&fontAlignY=40&desc=Backend%20%26%20AI%20Engineer&descAlign=70&descAlignY=70&v=1" alt="header"/>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2200&pause=1100&color=6A5ACD&center=true&vCenter=true&width=420&lines=Hi+I'm+Lee+Suh Saechan+%7C+ESTJ;Backend%2F+Engineer+%40+Somansa;Side+project+lover+%F0%9F%8E%89;Let%E2%80%99s+build+something+awesome!"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2200&pause=1100&color=6A5ACD&center=true&vCenter=true&width=420&lines=Hi+I'm+Suh+Saechan+%7C;Backend%2F+Engineer+%40+Somansa;Side+project+lover+%F0%9F%8E%89;Let%E2%80%99s+build+something+awesome!" alt="typing"/>
 </p>
 
 <p align="center">
@@ -92,7 +92,7 @@
   <img src="https://github-profile-trophy.vercel.app/?username=Cassiiopeia&theme=gruvbox&no-bg=true&margin-w=10"/>
 </p>
 <p align="center">
-  <img src="https://github.com/Cassiiopeia/Cassiiopeia/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+  <img src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
 ---
