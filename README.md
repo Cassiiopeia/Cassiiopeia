@@ -92,7 +92,10 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Cassiiopeia&theme=gruvbox&no-bg=true&margin-w=10"/>
 </p>
-![snake gif](https://github.com/Cassiipeia/Cassiipeia/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://github.com/Cassiiopeia/Cassiiopeia/blob/output/github-contribution-grid-snake.svg"/>
+</p>
+
 
 ---
 
