@@ -1,19 +1,33 @@
+```yaml
 name: Generate Snake Animation
+
+# 트리거 설정
 on:
   schedule:
     - cron: "0 0 * * *" # 매일 자정 실행
   push:
     branches: [ main ]
   workflow_dispatch: # 수동 실행 가능
+
 jobs:
   generate:
     permissions:
-      contents: write
+      contents: write # 쓰기 권한
     runs-on: ubuntu-latest
     timeout-minutes: 10
+
+    # 상수 정의
+    env:
+      SSH_HOST: suh-project.synology.me
+      SSH_PORT: 2022
+      UPLOAD_PATH: /volume1/web/github/cassiiopeia/images
+
     steps:
+      # 1. 리포지토리 체크아웃
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      # 2. Snake SVG 생성
       - name: Generate snake SVG
         uses: Platane/snk/svg-only@v3
         with:
@@ -23,16 +37,36 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 3. 파일 생성 디버깅
       - name: Debug file creation
         run: |
-          echo "Listing files in workspace:"
-          ls -la
           echo "Listing files in dist/:"
           ls -la dist/ || true
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
+
+      # 4. sshpass 설치
+      - name: Install sshpass
+        run: sudo apt-get update && sudo apt-get install -y sshpass
+
+      # 5. Synology NAS에 파일 업로드
+      - name: Upload files to Synology NAS
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
+          SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
+        run: |
+          sshpass -p "$SERVER_PASSWORD" scp -P $SSH_PORT -o StrictHostKeyChecking=no \
+            dist/github-contribution-grid-snake.svg \
+            $SERVER_USERNAME@$SSH_HOST:$UPLOAD_PATH/
+          sshpass -p "$SERVER_PASSWORD" scp -P $SSH_PORT -o StrictHostKeyChecking=no \
+            dist/github-contribution-grid-snake-dark.svg \
+            $SERVER_USERNAME@$SSH_HOST:$UPLOAD_PATH/
+
+      # 6. 업로드된 파일 확인
+      - name: Verify uploaded files
+        env:
+          SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
+          SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
+        run: |
+          sshpass -p "$SERVER_PASSWORD" ssh -p $SSH_PORT -o StrictHostKeyChecking=no \
+            $SERVER_USERNAME@$SSH_HOST "ls -la $UPLOAD_PATH"
+```
