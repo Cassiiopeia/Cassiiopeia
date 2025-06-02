@@ -45,7 +45,7 @@ jobs:
 
       # 4. sshpass 설치
       - name: Install sshpass
-        run: sudo apt-get update && sudo apt-get install -y sshpass
+        run: sudo apt-get install -y sshpass
 
       # 5. Synology NAS에 파일 업로드
       - name: Upload files to Synology NAS
