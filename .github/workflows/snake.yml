@@ -1,4 +1,3 @@
-
 name: Generate Snake Animation
 
 # 트리거 설정
@@ -18,9 +17,9 @@ jobs:
 
     # 상수 정의
     env:
-      SSH_HOST: suh-project.synology.me
-      SSH_PORT: 2022
-      UPLOAD_PATH: /volume1/web/github/cassiiopeia/images
+      FTP_HOST: suh-project.synology.me
+      FTP_PORT: 21
+      UPLOAD_PATH: web/github/cassiiopeia/images
 
     steps:
       # 1. 리포지토리 체크아웃
@@ -44,50 +43,27 @@ jobs:
           echo "Listing files in dist/:"
           ls -la dist/ || true
 
-      # 4. expect 설치
-      - name: Install expect
-        run: sudo apt-get install -y expect
-
-      # 5. Synology NAS에 디렉토리 생성
-      - name: Ensure remote directory exists
+      # 4. Synology NAS에 파일 업로드
+      - name: Upload files to Synology NAS via FTP
         env:
           SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
           SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
         run: |
-          /usr/bin/expect <<EOF
-            spawn ssh -p $SSH_PORT -o StrictHostKeyChecking=no $SERVER_USERNAME@$SSH_HOST "mkdir -p $UPLOAD_PATH"
-            expect "password:"
-            send "$SERVER_PASSWORD\r"
-            expect eof
-          EOF
+          curl -T dist/github-contribution-grid-snake.svg \
+            ftp://$FTP_HOST:$FTP_PORT/$UPLOAD_PATH/ \
+            --user $SERVER_USERNAME:$SERVER_PASSWORD
+          curl -T dist/github-contribution-grid-snake-dark.svg \
+            ftp://$FTP_HOST:$FTP_PORT/$UPLOAD_PATH/ \
+            --user $SERVER_USERNAME:$SERVER_PASSWORD
 
-      # 6. Synology NAS에 파일 업로드
-      - name: Upload files to Synology NAS
-        env:
-          SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
-          SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
-        run: |
-          /usr/bin/expect <<EOF
-            spawn ssh -p $SSH_PORT -o StrictHostKeyChecking=no $SERVER_USERNAME@$SSH_HOST "tee $UPLOAD_PATH/github-contribution-grid-snake.svg"
-            expect "password:"
-            send "$SERVER_PASSWORD\r"
-            expect eof
-          EOF < dist/github-contribution-grid-snake.svg
-          /usr/bin/expect <<EOF
-            spawn ssh -p $SSH_PORT -o StrictHostKeyChecking=no $SERVER_USERNAME@$SSH_HOST "tee $UPLOAD_PATH/github-contribution-grid-snake-dark.svg"
-            expect "password:"
-            send "$SERVER_PASSWORD\r"
-            expect eof
-          EOF < dist/github-contribution-grid-snake-dark.svg
-
-      # 7. 업로드된 파일 확인
+      # 5. 업로드된 파일 확인 (SSH로 확인, 선택 사항)
       - name: Verify uploaded files
         env:
           SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
           SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
         run: |
           /usr/bin/expect <<EOF
-            spawn ssh -p $SSH_PORT -o StrictHostKeyChecking=no $SERVER_USERNAME@$SSH_HOST "ls -la $UPLOAD_PATH"
+            spawn ssh -p 2022 -o StrictHostKeyChecking=no $SERVER_USERNAME@$FTP_HOST "ls -la /volume1/$UPLOAD_PATH"
             expect "password:"
             send "$SERVER_PASSWORD\r"
             expect eof
