@@ -80,11 +80,12 @@
 ---
 
 ## 📈 My GitHub Life
-
+<p align="center">
+  <img src="https://github.com/Cassiiopeia/Cassiiopeia/blob/output/github-contribution-grid-snake.svg"/>
+</p>
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cassiiopeia&theme=react-dark" alt="activity graph" width="98%"/>
 </p>
-
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Cassiiopeia&show_icons=true&theme=radical&hide_rank=false" height="170"/>
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Cassiiopeia&theme=radical&hide_border=true" height="170"/>
@@ -92,18 +93,13 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Cassiiopeia&theme=gruvbox&no-bg=true&margin-w=10"/>
 </p>
-<p align="center">
-  <img src="https://github.com/Cassiiopeia/Cassiiopeia/blob/output/github-contribution-grid-snake.svg"/>
-</p>
-
 
 ---
 
 ## 🤸‍♂️ Fun Facts
 
 - 🧑‍💻 **MBTI:** ESTJ (논리적이고, 리더십 강한 타입)
-- 🛠️ 취미: 사이드 프로젝트, LOL, 여행
-- ☕️ 커피 한 잔 + 재밌는 코드 = 최고의 하루~~!
+- 🛠️ 취미: 사이드 프로젝트, LOL, 여행, 영상편집
 - 🚀 새로운 협업/아이디어 언제나 환영합니다!
 
 ---
