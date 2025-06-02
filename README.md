@@ -1,7 +1,7 @@
 <!-- Cassiiopeia's standout GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160&section=header&text=Cassiiopeia&fontSize=45&fontAlign=70&fontAlignY=40&desc=Backend%20and%20AI%20Engineer&descAlign=70&descAlignY=70&v=2" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160§ion=header&text=Cassiiopeia%20Backend%20Developer&fontSize=45&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&descAlign=50&descAlignY=70&v=3" alt="header"/>
 </p>
 
 <p align="center">
