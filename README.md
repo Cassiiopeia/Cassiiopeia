@@ -1,7 +1,7 @@
 <!-- Cassiiopeia's standout GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160§ion=header&text=Cassiiopeia%20Backend%20Developer&fontSize=45&fontColor=FFFFFF&fontAlign=50&fontAlignY=40&descAlign=50&descAlignY=70&v=3" alt="header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=160§ion=header&text=Cassiiopeia&desc=Backend%20Developer&fontSize=45&descSize=20&fontColor=FFFFFF&descColor=FFFFFF&fontAlign=50&fontAlignY=35&descAlign=50&descAlignY=65&v=4&desc=" alt="header"/>
 </p>
 
 <p align="center">
@@ -92,13 +92,7 @@
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Cassiiopeia&theme=gruvbox&no-bg=true&margin-w=10"/>
 </p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake-dark.svg?v=2" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg?v=2" />
-    <img alt="snake animation" src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg?v=2" />
-  </picture>
-</p>
+![snake gif](https://github.com/Cassiipeia/Cassiipeia/blob/output/github-contribution-grid-snake.svg)
 
 ---
 
