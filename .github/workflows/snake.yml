@@ -1,5 +1,4 @@
-```yaml
-name: Generate Snake Animation
+name: Snake Animation
 
 # 트리거 설정
 on:
