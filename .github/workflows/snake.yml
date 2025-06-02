@@ -1,70 +1,40 @@
-name: Generate Snake Animation
+# 잔디먹는 뱀 애니메이션 생성 워크플로우
 
-# 트리거 설정
+name: generate animation
+
 on:
+  # 매 24시간마다 자동 실행
   schedule:
-    - cron: "0 0 * * *" # 매일 자정 실행
+    - cron: "0 0 * * *"
+
+  # 수동으로도 실행할 수 있도록 허용
+  workflow_dispatch:
+
+  # master 브랜치에 푸시되었을 때도 실행
   push:
-    branches: [ main ]
-  workflow_dispatch: # 수동 실행 가능
+    branches:
+      - master
 
 jobs:
   generate:
-    permissions:
-      contents: write # 쓰기 권한
     runs-on: ubuntu-latest
     timeout-minutes: 10
 
-    # 상수 정의
-    env:
-      FTP_HOST: suh-project.synology.me
-      FTP_PORT: 21
-      UPLOAD_PATH: web/github/cassiiopeia/images
-
     steps:
-      # 1. 리포지토리 체크아웃
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      # 2. Snake SVG 생성
-      - name: Generate snake SVG
+      # 1) GitHub 기여 그래프를 기반으로 SVG 애니메이션 생성
+      - name: generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Cassiiopeia
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3. 파일 생성 디버깅
-      - name: Debug file creation
-        run: |
-          echo "Listing files in dist/:"
-          ls -la dist/ || true
-
-      # 4. Synology NAS에 파일 업로드
-      - name: Upload files to Synology NAS via FTP
+      # 2) 생성된 SVG 파일을 output 브랜치에 푸시
+      - name: push github-contribution-grid-snake.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
         env:
-          SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
-          SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
-        run: |
-          curl -T dist/github-contribution-grid-snake.svg \
-            ftp://$FTP_HOST:$FTP_PORT/$UPLOAD_PATH/ \
-            --user $SERVER_USERNAME:$SERVER_PASSWORD
-          curl -T dist/github-contribution-grid-snake-dark.svg \
-            ftp://$FTP_HOST:$FTP_PORT/$UPLOAD_PATH/ \
-            --user $SERVER_USERNAME:$SERVER_PASSWORD
-
-      # 5. 업로드된 파일 확인 (SSH로 확인, 선택 사항)
-      - name: Verify uploaded files
-        env:
-          SERVER_USERNAME: ${{ secrets.SERVER_USERNAME }}
-          SERVER_PASSWORD: ${{ secrets.SERVER_PASSWORD }}
-        run: |
-          /usr/bin/expect <<EOF
-            spawn ssh -p 2022 -o StrictHostKeyChecking=no $SERVER_USERNAME@$FTP_HOST "ls -la /volume1/$UPLOAD_PATH"
-            expect "password:"
-            send "$SERVER_PASSWORD\r"
-            expect eof
-          EOF
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
