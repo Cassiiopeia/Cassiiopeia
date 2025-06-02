@@ -1,27 +1,36 @@
 name: Generate Snake Animation
 on:
   schedule:
-    - cron: "0 0 * * *" # 매일 자정에 실행
+    - cron: "0 0 * * *" # 매일 자정 실행
   push:
-    branches: [ main ] # main 브랜치에 푸시할 때도 실행
+    branches: [ main ]
   workflow_dispatch: # 수동 실행 가능
 jobs:
   generate:
+    permissions:
+      contents: write # 쓰기 권한 명시
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: Platane/snk@v3
+      - uses: actions/checkout@v4 # 최신 버전 사용
+      - name: Generate snake SVG
+        uses: Platane/snk/svg-only@v3 # SVG 전용 액션 사용
         with:
           github_user_name: Cassiiopeia
           outputs: |
             output/github-contribution-grid-snake.svg
+            output/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Push to output branch
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
           git checkout output || git checkout -b output
           mkdir -p output
-          mv dist/github-contribution-grid-snake.svg output/
-          git add output/github-contribution-grid-snake.svg
-          git commit -m "Update snake animation"
+          mv dist/github-contribution-grid-snake.svg output/ 2>/dev/null || true
+          mv dist/github-contribution-grid-snake-dark.svg output/ 2>/dev/null || true
+          git add output/
+          git commit -m "Update snake animation" || true
           git push origin output --force
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
