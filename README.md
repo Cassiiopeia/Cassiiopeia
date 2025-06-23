@@ -88,7 +88,10 @@
 </p>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Cassiiopeia&show_icons=true&theme=radical&hide_rank=false" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Cassiiopeia&theme=radical&hide_border=true" height="170"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Cassiiopeia&theme=radical&hide_border=true"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cassiiopeia&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
 </p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Cassiiopeia&theme=gruvbox&no-bg=true&margin-w=10"/>
