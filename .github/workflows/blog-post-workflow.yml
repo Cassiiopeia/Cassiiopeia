@@ -1,0 +1,21 @@
+#name: Latest blog post workflow
+#on:
+#  schedule: # Run workflow automatically
+#    - cron: '30 18 * * *' # Runs daily at 3:30 AM KST
+#  workflow_dispatch: # Run workflow manually
+#
+#permissions:
+#  contents: write # To write the generated contents to the readme
+#
+#jobs:
+#  update-readme-with-blog:
+#    name: Update this repo's README with latest blog posts
+#    runs-on: ubuntu-latest
+#    steps:
+#      - name: Checkout
+#        uses: actions/checkout@v4
+#      - name: Pull in blog posts
+#        uses: gautamkrishnar/blog-post-workflow@v1
+#        with:
+#          # 블로그 RSS 피드 URL을 여기에 추가하세요 (예: 개인 블로그, 벨로그, 티스토리 등)
+#          feed_list: "https://cassiiopeia.tistory.com/rss"

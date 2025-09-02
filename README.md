@@ -85,10 +85,60 @@
 
 ---
 
+## ⏰ Coding Stats
+
+<!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-0%20hrs%200%20mins-blue)
+
+![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-0%20lines%20of%20code-blue)
+
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning    ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌆 Daytime    ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌃 Evening    ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+🌙 Night      ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+```
+
+📅 **I'm Most Productive on Monday** 
+
+```text
+Monday       ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Tuesday      ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Wednesday    ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Thursday     ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Friday       ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Saturday     ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+Sunday       ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 % 
+```
+
+📊 **This Week I Spent My Time On** 
+
+```text
+🕑︎ Time Zone: Asia/Seoul
+
+💬 Programming Languages: 
+No Activity Tracked This Week
+
+🔥 Editors: 
+No Activity Tracked This Week
+```
+
+ Last Updated on 02/09/2025 00:00:00 UTC
+<!--END_SECTION:waka-->
+
+---
+
 ## 📈 My GitHub Life
-<p align="center">
-  <img src="https://github.com/Cassiiopeia/Cassiiopeia/blob/output/github-contribution-grid-snake.svg"/>
-</p>
+
+![](./profile-3d-contrib/profile-night-green.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg">
+</picture>
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cassiiopeia&theme=react-dark" alt="activity graph" width="98%"/>
 </p>
