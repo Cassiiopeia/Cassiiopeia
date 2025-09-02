@@ -1,0 +1,45 @@
+# 뱀 애니메이션
+
+name: SUH-SNAKE-ANIMATION
+
+on:
+  # 스케줄
+  schedule:
+    - cron: "0 0 * * *"
+
+  # 수동 실행
+  workflow_dispatch:
+
+  # 푸시 트리거
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: suh-checkout-repo
+        uses: actions/checkout@v4
+
+      - name: suh-generate-snake-svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: Cassiiopeia
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: suh-push-to-output-branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
