@@ -29,7 +29,7 @@ jobs:
           SHOW_PROFILE_VIEWS: "True"
           
           # 차트 및 그래프
-          SHOW_LOC_CHART: "True"
+          SHOW_LOC_CHART: "False"
           
           # 프로젝트 및 언어 통계
           SHOW_PROJECTS: "True"
@@ -61,10 +61,11 @@ jobs:
           # 기타 설정
           SECTION_NAME: "waka"
           SYMBOL_VERSION: "3"
+          DEBUG_LOGGING: "True"
           
           # 추가 가능한 옵션들
           SHOW_TITLE: "True"
           BLOCKS: "⣀⣄⣤⣦⣶⣷⣿"
-          TIME_RANGE: "all_time"
+          TIME_RANGE: "last_7_days"
           SHOW_TIME: "True"
           SHOW_MASKED_TIME: "False"
