@@ -77,12 +77,20 @@
 
 ## 🌟 Featured Projects
 
-### 🚀 [RomRom](https://github.com/TEAM-ROMROM/RomRom-BE) | [FE](https://github.com/TEAM-ROMROM/RomRom-FE)
+### 🚀 [RomRom-BE](https://github.com/TEAM-ROMROM/RomRom-BE) | [RomRom-FE](https://github.com/TEAM-ROMROM/RomRom-FE)
+(2024.10 ~ 진행 중)
 > **물물교환 시스템 + AI 가격측정 + 알고리즘 물건 매칭**
 - 실시간 물건 매칭/추천, AI 기반 가격 산정, 사용자 친화적 물물교환 플랫폼
 - 백엔드, 프론트엔드 모두 참여
 
-### 🦜 [Malsami](https://github.com/Sejong-Balsamic/Malsami-BE)
+### 🌍 [Tripgether-BE](https://github.com/TEAM-Tripgether/Tripgether-BE) | [Tripgether-AI](https://github.com/TEAM-Tripgether/Tripgether-python)
+(2025.09 ~ 2025.11)
+> ** AI를 활용한 여행 가이드 시스템**
+- SNS(릴스·쇼츠·사진)에서 장소 정보를 AI로 자동 추출해 개인 여행 지도를 생성해주는 서비스
+- 여행 코스·가이드 자동 생성 판매까지 연결되는 여행 가이드 플랫폼
+
+### 🦜 [Malsami-BE](https://github.com/Sejong-Balsamic/Malsami-BE) | [Malsami-FE](https://github.com/Sejong-Balsamic/Malsami-BE)
+(2023.03 ~ 2024.03)
 > **대학 교육관리 시스템**
 - 자료/질문 게시판, 임베딩 기반 AI 자료 추천, 강의 관리 등
 - AI/검색/추천/임베딩 시스템 백엔드 개발
@@ -213,3 +221,12 @@ Dart                     2 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=7F7FD5&height=100&section=footer&v=2" alt="footer"/>
 </p>
+
+---
+
+<!-- AUTO-VERSION-SECTION: DO NOT EDIT MANUALLY -->
+<!-- 이 섹션은 .github/workflows/PROJECT-README-VERSION-UPDATE.yaml에 의해 자동으로 업데이트됩니다 -->
+## 최신 버전 : v1.0.87
+
+[전체 버전 기록 보기](CHANGELOG.md)
+<!-- END-AUTO-VERSION-SECTION -->
