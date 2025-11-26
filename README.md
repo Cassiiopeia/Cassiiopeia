@@ -196,10 +196,3 @@ Dart                     2 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 </p>
 
 ---
-
-<!-- AUTO-VERSION-SECTION: DO NOT EDIT MANUALLY -->
-<!-- 이 섹션은 .github/workflows/PROJECT-README-VERSION-UPDATE.yaml에 의해 자동으로 업데이트됩니다 -->
-## 최신 버전 : v1.0.87
-
-[전체 버전 기록 보기](CHANGELOG.md)
-<!-- END-AUTO-VERSION-SECTION -->
