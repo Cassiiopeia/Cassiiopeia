@@ -160,7 +160,7 @@ Dart                     2 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 ## 📈 My GitHub Life
 
-![](./profile-3d-contrib/profile-night-green.svg)
+![](./profile-3d-contrib/profile-season.svg)
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake-dark.svg">
@@ -168,14 +168,14 @@ Dart                     2 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/output/github-contribution-grid-snake.svg">
 </picture>
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cassiiopeia&theme=react-dark" alt="activity graph" width="98%"/>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cassiiopeia&theme=github-light&area=true&hide_border=true" alt="activity graph" width="98%"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Cassiiopeia&show_icons=true&theme=radical&hide_rank=false" height="170"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api?username=Cassiiopeia&show_icons=true&theme=default&hide_border=true" height="170"/>
 </p>
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Cassiiopeia&theme=radical&hide_border=true"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cassiiopeia&layout=compact&theme=radical&hide_border=true" alt="Top Languages"/>
+  <img src="https://streak-stats.demolab.com?user=Cassiiopeia&theme=default&hide_border=true"/>
+  <img src="https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/top-langs/?username=Cassiiopeia&layout=compact&theme=default&hide_border=true" alt="Top Languages"/>
 </p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Cassiiopeia&theme=gruvbox&no-bg=true&margin-w=10"/>
