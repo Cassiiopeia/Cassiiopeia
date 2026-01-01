@@ -52,7 +52,7 @@ Side project enthusiast who loves experimenting with new tech.
 ---
 
 <!-- 수정하지마세요 자동으로 동기화 됩니다 -->
-## 최신 버전 : v1.1.2 (2025-11-25)
+## 최신 버전 : v1.2.2 (2026-01-01)
 [전체 버전 기록 보기](CHANGELOG.md)
 
 ---
