@@ -165,10 +165,6 @@ Side project enthusiast who loves experimenting with new tech.
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Cassiiopeia&locale=ko"/></a>
-</p>
-
-<p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Cassiiopeia&theme=github-light&area=true&hide_border=true&bg_color=transparent" width="98%"/>
 </p>
 
