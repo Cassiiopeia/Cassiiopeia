@@ -1,18 +1,12 @@
 <!-- Cassiiopeia's GitHub Profile README -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=180&section=header&text=SUH%20SAECHAN&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=35&animation=fadeIn" alt="header"/>
-</p>
+<a href="https://lab.suhsaechan.kr">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=220&section=header&text=SUH%20SAECHAN&fontSize=60&fontColor=FFFFFF&fontAlign=50&fontAlignY=38&animation=fadeIn&desc=lab.suhsaechan.kr&descFontColor=rgba(255,255,255,0.85)&descFontSize=22&descAlign=50&descAlignY=60" width="100%" alt="header"/>
+</a>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cassiiopeia&style=flat-square&color=7F7FD5" alt="profile views"/>
   <img src="https://img.shields.io/badge/Somansa-Server_Module_Team-1f425f?style=flat-square" alt="Somansa"/>
-</p>
-
-<p align="center">
-  <a href="https://lab.suhsaechan.kr">
-    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=7F7FD5&text=lab.suhsaechan.kr&height=100&fontSize=40&desc=%EC%A0%9C%EA%B0%80%20%EB%A7%8C%EB%93%A0%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%B4%20%EC%97%AC%EA%B8%B0%EC%97%90%20%EC%9E%88%EC%96%B4%EC%9A%94.&descAlignY=75&descAlign=50&descSize=15&descFontColor=9ca3af" width="100%" alt="MY LAB"/>
-  </a>
 </p>
 
 ---
