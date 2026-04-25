@@ -30,12 +30,12 @@
 ## Projects
 
 <table>
-<tr><td><b>SUH-DEVOPS-TEMPLATE</b></td><td>Full dev cycle automation — issue to deploy, powered by GitHub Actions & AI</td><td><a href="https://github.com/Cassiiopeia/SUH-DEVOPS-TEMPLATE">Repo</a></td></tr>
-<tr><td><b>RomRom</b></td><td>AI-powered barter platform — match items, get AI pricing, trade smarter</td><td><a href="https://play.google.com/store/apps/details?id=com.alom.romrom">Google Play</a> · <a href="https://apps.apple.com/kr/app/id6748823976">App Store</a> · <a href="https://github.com/TEAM-ROMROM/RomRom-BE">BE</a> · <a href="https://github.com/TEAM-ROMROM/RomRom-FE">FE</a></td></tr>
-<tr><td><b>PassQL</b></td><td>Password management library & web service</td><td><a href="https://passql.vercel.app/">passql.vercel.app</a> · <a href="https://github.com/passQL-Lab/passQL">Repo</a></td></tr>
-<tr><td><b>suh-project-utility</b></td><td>Personal dev lab — experiments, utilities, and tools I actually use</td><td><a href="https://lab.suhsaechan.kr">lab.suhsaechan.kr</a> · <a href="https://github.com/Cassiiopeia/suh-project-utility">Repo</a></td></tr>
-<tr><td><b>Tripgether</b></td><td>AI travel guide — extracts places from SNS posts, builds your personal map</td><td><a href="https://github.com/Cassiiopeia/Tripgether-BE">BE</a> · <a href="https://github.com/Cassiiopeia/tripgether-FE">FE</a></td></tr>
-<tr><td><b>Re: WAVE</b></td><td>Choice-driven visual novel — your decisions shape the story</td><td><a href="https://bagel.suhsaechan.kr/">bagel.suhsaechan.kr</a> · <a href="https://github.com/bagle-ggul/Bagel-Backend">Repo</a></td></tr>
+<tr><td><b>SUH-DEVOPS-TEMPLATE</b></td><td>Full dev cycle automation — issue to deploy, powered by GitHub Actions & AI</td><td><a href="https://github.com/Cassiiopeia/SUH-DEVOPS-TEMPLATE"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>RomRom</b></td><td>AI-powered barter platform — match items, get AI pricing, trade smarter</td><td><a href="https://play.google.com/store/apps/details?id=com.alom.romrom"><img src="https://img.shields.io/badge/Google_Play-414141?style=flat-square&logo=google-play&logoColor=white"/></a> <a href="https://apps.apple.com/kr/app/id6748823976"><img src="https://img.shields.io/badge/App_Store-000000?style=flat-square&logo=apple&logoColor=white"/></a> <a href="https://github.com/TEAM-ROMROM/RomRom-BE"><img src="https://img.shields.io/badge/BE-181717?style=flat-square&logo=github&logoColor=white"/></a> <a href="https://github.com/TEAM-ROMROM/RomRom-FE"><img src="https://img.shields.io/badge/FE-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>PassQL</b></td><td>Password management library & web service</td><td><a href="https://passql.vercel.app/"><img src="https://img.shields.io/badge/Web-000000?style=flat-square&logo=vercel&logoColor=white"/></a> <a href="https://github.com/passQL-Lab/passQL"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>suh-project-utility</b></td><td>Personal dev lab — experiments, utilities, and tools I actually use</td><td><a href="https://lab.suhsaechan.kr"><img src="https://img.shields.io/badge/Web-4FC08D?style=flat-square&logo=googlechrome&logoColor=white"/></a> <a href="https://github.com/Cassiiopeia/suh-project-utility"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>Tripgether</b></td><td>AI travel guide — extracts places from SNS posts, builds your personal map</td><td><a href="https://github.com/Cassiiopeia/Tripgether-BE"><img src="https://img.shields.io/badge/BE-181717?style=flat-square&logo=github&logoColor=white"/></a> <a href="https://github.com/Cassiiopeia/tripgether-FE"><img src="https://img.shields.io/badge/FE-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>Re: WAVE</b></td><td>Choice-driven visual novel — your decisions shape the story</td><td><a href="https://bagel.suhsaechan.kr/"><img src="https://img.shields.io/badge/Web-161b22?style=flat-square&logo=googlechrome&logoColor=white"/></a> <a href="https://github.com/bagle-ggul/Bagel-Backend"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
 </table>
 
 ---
@@ -43,10 +43,10 @@
 ## Open Source Modules
 
 <table>
-<tr><td><b>SUH-Logger</b></td><td>AOP-based JSON logger · auto execution time tracking</td><td><a href="https://github.com/Cassiiopeia/suh-logger">Repo</a></td></tr>
-<tr><td><b>SUH-API-Log</b></td><td>API changelog via JSON · auto Swagger display</td><td><a href="https://github.com/Cassiiopeia/suh-api-log">Repo</a></td></tr>
-<tr><td><b>SUH-Random-Engine</b></td><td>960K-combo nickname generator · gacha system</td><td><a href="https://github.com/Cassiiopeia/suh-random-engine">Repo</a></td></tr>
-<tr><td><b>SUH-AIder</b></td><td>AI helper library for Spring Boot · OpenAI / Claude</td><td><a href="https://github.com/Cassiiopeia/SUH-AIder">Repo</a></td></tr>
+<tr><td><b>SUH-Logger</b></td><td>AOP-based JSON logger · auto execution time tracking</td><td><a href="https://github.com/Cassiiopeia/suh-logger"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>SUH-API-Log</b></td><td>API changelog via JSON · auto Swagger display</td><td><a href="https://github.com/Cassiiopeia/suh-api-log"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>SUH-Random-Engine</b></td><td>960K-combo nickname generator · gacha system</td><td><a href="https://github.com/Cassiiopeia/suh-random-engine"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
+<tr><td><b>SUH-AIder</b></td><td>AI helper library for Spring Boot · OpenAI / Claude</td><td><a href="https://github.com/Cassiiopeia/SUH-AIder"><img src="https://img.shields.io/badge/Repo-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
 </table>
 
 ---
