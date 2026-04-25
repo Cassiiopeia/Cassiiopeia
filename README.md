@@ -17,7 +17,7 @@
 
 ---
 
-## Spec
+## ![Spec](https://img.shields.io/badge/Spec-394EFF?style=flat-square&logo=spaceship&logoColor=white)
 
 <table>
 <tr><td><b>Work</b></td><td>Somansa DLP · Software Programmer · Jul 2024 – Present</td></tr>
@@ -27,7 +27,7 @@
 
 ---
 
-## Projects
+## ![Projects](https://img.shields.io/badge/Projects-394EFF?style=flat-square&logo=spaceship&logoColor=white)
 
 <table>
 <tr><td><b>SUH-DEVOPS-TEMPLATE</b></td><td>Full dev cycle automation — issue to deploy, powered by GitHub Actions & AI</td><td><a href="https://github.com/Cassiiopeia/SUH-DEVOPS-TEMPLATE"><img src="https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
@@ -40,7 +40,7 @@
 
 ---
 
-## Open Source Modules
+## ![Open Source Modules](https://img.shields.io/badge/Open_Source_Modules-394EFF?style=flat-square&logo=spaceship&logoColor=white)
 
 <table>
 <tr><td><b>SUH-Logger</b></td><td>AOP-based JSON logger · auto execution time tracking</td><td><a href="https://github.com/Cassiiopeia/suh-logger"><img src="https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white"/></a></td></tr>
@@ -51,7 +51,7 @@
 
 ---
 
-## Tech Stack
+## ![Tech Stack](https://img.shields.io/badge/Tech_Stack-394EFF?style=flat-square&logo=spaceship&logoColor=white)
 
 | Category | Technologies |
 |:---------|:-------------|
