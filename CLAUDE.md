@@ -52,4 +52,31 @@ source ~/.zshrc && npm run typecheck
 ## 📌 주의사항
 - 모든 bash 명령어는 `source ~/.zshrc &&` 프리픽스 필수
 - 커밋은 사용자 요청 시에만 수행
-- GitHub PAT는 `_GITHUB_PAT_TOKEN` 사용 
+- GitHub PAT는 `_GITHUB_PAT_TOKEN` 사용
+
+## 📝 커밋 메시지 규칙
+
+**반드시 `/issue` 스킬이 제시하는 커밋 템플릿 형식을 따른다.**
+
+### 형식
+```
+{이슈 제목에서 이모지·태그 제거한 순수 내용} : {타입} : {변경사항 설명} {이슈URL}
+```
+
+### 타입 목록
+- `feat` — 새 기능
+- `fix` — 버그 수정
+- `refactor` — 리팩토링
+- `docs` — 문서
+- `chore` — 기타
+
+### 예시
+```
+README 리드미 대폭 개선 : feat : MY LAB 섹션 신설, About Me 제거 https://github.com/Cassiiopeia/Cassiiopeia/issues/13
+streak-stats 엑박 발생 : fix : 해당 부분 삭제 https://github.com/Cassiiopeia/Cassiiopeia/issues/11
+```
+
+### 절대 금지
+- `Co-Authored-By` 태그 추가 금지
+- 이슈 없이 임의 형식으로 커밋 금지
+- `/issue` 스킬을 통해 이슈를 먼저 생성하고, 해당 이슈 URL을 커밋 메시지에 포함할 것

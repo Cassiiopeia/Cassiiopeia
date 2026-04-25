@@ -1,11 +1,37 @@
 {
   "metadata": {
-    "lastUpdated": "2026-04-25T09:48:29Z",
-    "currentVersion": "1.2.108",
+    "lastUpdated": "2026-04-25T09:55:51Z",
+    "currentVersion": "1.2.109",
     "projectType": "basic",
-    "totalReleases": 3
+    "totalReleases": 5
   },
   "releases": [
+    {
+      "version": "1.2.109",
+      "project_type": "basic",
+      "date": "2026-04-25",
+      "pr_number": 15,
+      "raw_summary": "## Summary by CodeRabbit\n\n## 릴리스 노트\n\n* **개선**\n  * GitHub 프로필 헤더 배너 및 방문자 카운터 복구\n  * 섹션 제목 단순화 및 링크 텍스트 가독성 개선",
+      "parsed_changes": {
+        "개선": {
+          "title": "개선",
+          "items": [
+            "GitHub 프로필 헤더 배너 및 방문자 카운터 복구",
+            "섹션 제목 단순화 및 링크 텍스트 가독성 개선"
+          ]
+        }
+      },
+      "parse_method": "markdown"
+    },
+    {
+      "version": "1.2.109",
+      "project_type": "basic",
+      "date": "2026-04-25",
+      "pr_number": 15,
+      "raw_summary": "Summary by CodeRabbit\n릴리스 노트\n\n개선\n\nGitHub 프로필 헤더 배너 및 방문자 카운터 복구\n섹션 제목 단순화 및 링크 텍스트 가독성 개선",
+      "parsed_changes": {},
+      "parse_method": "markdown_failed"
+    },
     {
       "version": "1.2.108",
       "project_type": "basic",
