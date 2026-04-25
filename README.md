@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://lab.suhsaechan.kr">
-    <img src="https://img.shields.io/badge/MY_LAB-lab.suhsaechan.kr-7F7FD5?style=for-the-badge&labelColor=1a1a2e" alt="MY-LAB" height="40"/>
+    <img src="https://img.shields.io/badge/MY_LAB-lab.suhsaechan.kr-7F7FD5?style=for-the-badge&labelColor=1a1a2e&logo=cursor&logoColor=white" alt="MY-LAB" height="40"/>
   </a>
 </p>
 
