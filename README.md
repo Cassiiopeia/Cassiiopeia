@@ -1,11 +1,7 @@
 <!-- Cassiiopeia's GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=180&section=header&text=Suh%20Saechan&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=35&animation=fadeIn" alt="header"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=6A5ACD&center=true&vCenter=true&width=500&lines=Backend+Engineer+%40+Somansa;Building+Scalable+Systems+with+Java+%26+Spring;AI+%2B+Side+Projects+Enthusiast;Always+Open+to+Collaborate" alt="typing"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=180&section=header&text=SUH%20SAECHAN&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=35&animation=fadeIn" alt="header"/>
 </p>
 
 <p align="center">
@@ -13,9 +9,11 @@
   <img src="https://img.shields.io/badge/Somansa-Server_Module_Team-1f425f?style=flat-square" alt="Somansa"/>
 </p>
 
-<a href="https://lab.suhsaechan.kr">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=80&text=lab.suhsaechan.kr&fontColor=79c0ff&fontSize=28&fontAlign=50&fontAlignY=45&desc=%EC%A0%9C%EA%B0%80%20%EB%A7%8C%EB%93%A0%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%B4%20%EC%97%AC%EA%B8%B0%EC%97%90%20%EC%9E%88%EC%96%B4%EC%9A%94.&descFontColor=8b949e&descFontSize=14&descAlign=50&descAlignY=75&borderRadius=6" width="100%" alt="MY LAB"/>
-</a>
+<p align="center">
+  <a href="https://lab.suhsaechan.kr">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=7F7FD5&text=lab.suhsaechan.kr&height=100&fontSize=40&desc=%EC%A0%9C%EA%B0%80%20%EB%A7%8C%EB%93%A0%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%B4%20%EC%97%AC%EA%B8%B0%EC%97%90%20%EC%9E%88%EC%96%B4%EC%9A%94.&descAlignY=75&descAlign=50&descSize=15&descFontColor=9ca3af" width="100%" alt="MY LAB"/>
+  </a>
+</p>
 
 ---
 
