@@ -1,11 +1,28 @@
 {
   "metadata": {
-    "lastUpdated": "2026-01-01T11:53:41Z",
-    "currentVersion": "1.2.2",
+    "lastUpdated": "2026-04-25T09:48:29Z",
+    "currentVersion": "1.2.108",
     "projectType": "basic",
-    "totalReleases": 2
+    "totalReleases": 3
   },
   "releases": [
+    {
+      "version": "1.2.108",
+      "project_type": "basic",
+      "date": "2026-04-25",
+      "pr_number": 14,
+      "raw_summary": "## Summary by CodeRabbit\n\n## 릴리스 노트\n\n* **개선**\n  * GitHub 프로필 README 전면 개편 — MY LAB 섹션 신설, 프로젝트 목록 최신화\n  * 개발 지표 및 3D 기여도 그래프 자동 업데이트",
+      "parsed_changes": {
+        "개선": {
+          "title": "개선",
+          "items": [
+            "GitHub 프로필 README 전면 개편 — MY LAB 섹션 신설, 프로젝트 목록 최신화",
+            "개발 지표 및 3D 기여도 그래프 자동 업데이트"
+          ]
+        }
+      },
+      "parse_method": "markdown"
+    },
     {
       "version": "1.2.2",
       "project_type": "basic",
