@@ -1,7 +1,7 @@
 <!-- Cassiiopeia's GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=300&section=header&text=SUH%20SAECHAN&fontSize=90&animation=fadeIn&fontAlignY=38&desc=lab.suhsaechan.kr&descAlignY=51&descAlign=62"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=300&section=header&text=SUH%20SAECHAN&fontSize=90&animation=fadeIn&fontAlignY=38&desc=lab.suhsaechan.kr&descAlignY=58&descAlign=60&descSize=40"/>
 </p>
 
 <p align="center">
