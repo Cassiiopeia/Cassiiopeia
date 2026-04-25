@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://lab.suhsaechan.kr">
-    <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=90&text=LAB%20%3A%20lab.suhsaechan.kr&fontColor=79c0ff&fontSize=32&fontAlign=50&fontAlignY=55&borderRadius=6" width="100%" alt="MY LAB"/>
+    <img src="https://img.shields.io/badge/MY_LAB-lab.suhsaechan.kr-7F7FD5?style=for-the-badge&labelColor=1a1a2e" alt="MY-LAB"/>
   </a>
 </p>
 
