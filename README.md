@@ -19,15 +19,9 @@
 
 | | |
 |:--|:--|
-| Work | Somansa DLP · Software Programmer · Jul 2024 – Present |
-| Edu | Sejong Univ. · Bio-convergence Engineering · GPA 3.8 · 2018–2024 |
-| Cert | Engineer Information Processing · SQLD · Linux Master Lv.2 · Chemical Analysis Engineer |
-
----
-
-<!-- AUTO-VERSION-SECTION: DO NOT EDIT MANUALLY -->
-## 최신 버전 : v1.2.109 (2026-04-25)
-[전체 버전 기록 보기](CHANGELOG.md)
+| **Work** | Somansa DLP · Software Programmer · Jul 2024 – Present |
+| **Edu** | Sejong Univ. · Bio-convergence Engineering · GPA 3.8 · 2018–2024 |
+| **Cert** | Engineer Information Processing · SQLD · Linux Master Lv.2 · Chemical Analysis Engineer |
 
 ---
 
@@ -189,6 +183,12 @@ PowerShell               1 repo              ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
  Last Updated on 2026년 04월 24일 19:34:30 UTC UTC
 <!--END_SECTION:waka-->
+
+---
+
+<!-- AUTO-VERSION-SECTION: DO NOT EDIT MANUALLY -->
+## 최신 버전 : v1.2.109 (2026-04-25)
+[전체 버전 기록 보기](CHANGELOG.md)
 
 ---
 
