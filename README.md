@@ -1,8 +1,8 @@
 <!-- Cassiiopeia's GitHub Profile README -->
 
-<a href="https://lab.suhsaechan.kr">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=300&section=header&text=SUH%20SAECHAN&fontSize=90&fontColor=333333&fontAlign=50&fontAlignY=38&animation=fadeIn&desc=lab.suhsaechan.kr&descFontColor=444444&descFontSize=28&descAlign=62&descAlignY=55" width="100%" alt="header"/>
-</a>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=300&section=header&text=SUH%20SAECHAN&fontSize=90&animation=fadeIn&fontAlignY=38&desc=lab.suhsaechan.kr&descAlignY=51&descAlign=62"/>
+</p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cassiiopeia&style=flat-square&color=7F7FD5" alt="profile views"/>
