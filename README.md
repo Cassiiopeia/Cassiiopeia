@@ -1,12 +1,8 @@
 <!-- Cassiiopeia's GitHub Profile README -->
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=180&section=header&text=Suh%20Saechan&fontSize=50&fontColor=FFFFFF&fontAlign=50&fontAlignY=35&animation=fadeIn" alt="header"/>
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=1000&color=6A5ACD&center=true&vCenter=true&width=500&lines=Backend+Engineer+%40+Somansa;Building+Scalable+Systems+with+Java+%26+Spring;AI+%2B+Side+Projects+Enthusiast;Always+Open+to+Collaborate" alt="typing"/>
-</p>
+<a href="https://github.com/Cassiiopeia">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:7F7FD5,100:86A8E7&height=160&text=Suh%20Saechan&fontSize=52&fontColor=FFFFFF&fontAlign=50&fontAlignY=45&desc=Backend%20Engineer%20%40%20Somansa%20%C2%B7%20AI%20%2B%20Side%20Projects%20%C2%B7%20Always%20Open%20to%20Collaborate&descFontColor=rgba(255,255,255,0.85)&descFontSize=14&descAlign=50&descAlignY=68&borderRadius=12" width="100%" alt="header"/>
+</a>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cassiiopeia&style=flat-square&color=7F7FD5" alt="profile views"/>
@@ -14,7 +10,7 @@
 </p>
 
 <a href="https://lab.suhsaechan.kr">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=80&text=lab.suhsaechan.kr&fontColor=79c0ff&fontSize=28&fontAlign=50&fontAlignY=45&desc=%EC%A0%9C%EA%B0%80%20%EB%A7%8C%EB%93%A0%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%B4%20%EC%97%AC%EA%B8%B0%EC%97%90%20%EC%9E%88%EC%96%B4%EC%9A%94.&descFontColor=8b949e&descFontSize=14&descAlign=50&descAlignY=75&borderRadius=6" width="100%" alt="MY LAB"/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=80&text=lab.suhsaechan.kr&fontColor=79c0ff&fontSize=28&fontAlign=50&fontAlignY=45&desc=%EC%A0%9C%EA%B0%80%20%EB%A7%8C%EB%93%A0%20%EB%AA%A8%EB%93%A0%20%EA%B2%83%EC%9D%B4%20%EC%97%AC%EA%B8%B0%EC%97%90%20%EC%9E%88%EC%96%B4%EC%9A%94.&descFontColor=8b949e&descFontSize=14&descAlign=50&descAlignY=75&borderRadius=12" width="100%" alt="MY LAB"/>
 </a>
 
 ---
