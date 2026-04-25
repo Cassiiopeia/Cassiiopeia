@@ -1,12 +1,18 @@
 <!-- Cassiiopeia's GitHub Profile README -->
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=300&section=header&text=SUH%20SAECHAN&fontSize=90&animation=fadeIn&fontAlignY=38&desc=lab.suhsaechan.kr&descAlignY=51&descAlign=62&descSize=30"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7F7FD5,100:86A8E7&height=300&section=header&text=SUH%20SAECHAN&fontSize=90&animation=fadeIn&fontAlignY=38&desc=lab.suhsaechan.kr&descAlignY=51&descAlign=62"/>
 </p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Cassiiopeia&style=flat-square&color=7F7FD5" alt="profile views"/>
   <img src="https://img.shields.io/badge/Somansa-Server_Module_Team-1f425f?style=flat-square" alt="Somansa"/>
+</p>
+
+<p align="center">
+  <a href="https://lab.suhsaechan.kr">
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=161b22&height=90&text=LAB%20%3A%20lab.suhsaechan.kr&fontColor=79c0ff&fontSize=32&fontAlign=50&fontAlignY=55&borderRadius=6" width="100%" alt="MY LAB"/>
+  </a>
 </p>
 
 ---
