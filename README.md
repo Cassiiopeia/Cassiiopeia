@@ -13,7 +13,7 @@
 
 ## Spec
 
-| | |
+| &nbsp; | &nbsp; |
 |:--|:--|
 | **Work** | Somansa DLP · Software Programmer · Jul 2024 – Present |
 | **Edu** | Sejong Univ. · Bio-convergence Engineering · GPA 3.8 · 2018–2024 |
@@ -23,7 +23,7 @@
 
 ## Projects
 
-| Project | | |
+| &nbsp; | &nbsp; | &nbsp; |
 |:--------|:--|--:|
 | **SUH-DEVOPS-TEMPLATE** | Full dev cycle automation — issue to deploy, powered by GitHub Actions & AI | [Repo](https://github.com/Cassiiopeia/SUH-DEVOPS-TEMPLATE) |
 | **RomRom** | AI-powered barter platform — match items, get AI pricing, trade smarter | [Google Play](https://play.google.com/store/apps/details?id=com.alom.romrom) · [App Store](https://apps.apple.com/kr/app/id6748823976) · [BE](https://github.com/TEAM-ROMROM/RomRom-BE) · [FE](https://github.com/TEAM-ROMROM/RomRom-FE) |
