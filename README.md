@@ -13,35 +13,35 @@
 
 ## Spec
 
-| &nbsp; | &nbsp; |
-|:--|:--|
-| **Work** | Somansa DLP · Software Programmer · Jul 2024 – Present |
-| **Edu** | Sejong Univ. · Bio-convergence Engineering · GPA 3.8 · 2018–2024 |
-| **Cert** | Engineer Information Processing · SQLD · Linux Master Lv.2 · Chemical Analysis Engineer |
+<table>
+<tr><td><b>Work</b></td><td>Somansa DLP · Software Programmer · Jul 2024 – Present</td></tr>
+<tr><td><b>Edu</b></td><td>Sejong Univ. · Bio-convergence Engineering · GPA 3.8 · 2018–2024</td></tr>
+<tr><td><b>Cert</b></td><td>Engineer Information Processing · SQLD · Linux Master Lv.2 · Chemical Analysis Engineer</td></tr>
+</table>
 
 ---
 
 ## Projects
 
-| &nbsp; | &nbsp; | &nbsp; |
-|:--------|:--|--:|
-| **SUH-DEVOPS-TEMPLATE** | Full dev cycle automation — issue to deploy, powered by GitHub Actions & AI | [Repo](https://github.com/Cassiiopeia/SUH-DEVOPS-TEMPLATE) |
-| **RomRom** | AI-powered barter platform — match items, get AI pricing, trade smarter | [Google Play](https://play.google.com/store/apps/details?id=com.alom.romrom) · [App Store](https://apps.apple.com/kr/app/id6748823976) · [BE](https://github.com/TEAM-ROMROM/RomRom-BE) · [FE](https://github.com/TEAM-ROMROM/RomRom-FE) |
-| **PassQL** | Password management library & web service | [passql.vercel.app](https://passql.vercel.app/) · [Repo](https://github.com/passQL-Lab/passQL) |
-| **suh-project-utility** | Personal dev lab — experiments, utilities, and tools I actually use | [lab.suhsaechan.kr](https://lab.suhsaechan.kr) · [Repo](https://github.com/Cassiiopeia/suh-project-utility) |
-| **Tripgether** | AI travel guide — extracts places from SNS posts, builds your personal map | [BE](https://github.com/Cassiiopeia/Tripgether-BE) · [FE](https://github.com/Cassiiopeia/tripgether-FE) |
-| **Re: WAVE** | Choice-driven visual novel — your decisions shape the story | [bagel.suhsaechan.kr](https://bagel.suhsaechan.kr/) · [Repo](https://github.com/bagle-ggul/Bagel-Backend) |
+<table>
+<tr><td><b>SUH-DEVOPS-TEMPLATE</b></td><td>Full dev cycle automation — issue to deploy, powered by GitHub Actions & AI</td><td><a href="https://github.com/Cassiiopeia/SUH-DEVOPS-TEMPLATE">Repo</a></td></tr>
+<tr><td><b>RomRom</b></td><td>AI-powered barter platform — match items, get AI pricing, trade smarter</td><td><a href="https://play.google.com/store/apps/details?id=com.alom.romrom">Google Play</a> · <a href="https://apps.apple.com/kr/app/id6748823976">App Store</a> · <a href="https://github.com/TEAM-ROMROM/RomRom-BE">BE</a> · <a href="https://github.com/TEAM-ROMROM/RomRom-FE">FE</a></td></tr>
+<tr><td><b>PassQL</b></td><td>Password management library & web service</td><td><a href="https://passql.vercel.app/">passql.vercel.app</a> · <a href="https://github.com/passQL-Lab/passQL">Repo</a></td></tr>
+<tr><td><b>suh-project-utility</b></td><td>Personal dev lab — experiments, utilities, and tools I actually use</td><td><a href="https://lab.suhsaechan.kr">lab.suhsaechan.kr</a> · <a href="https://github.com/Cassiiopeia/suh-project-utility">Repo</a></td></tr>
+<tr><td><b>Tripgether</b></td><td>AI travel guide — extracts places from SNS posts, builds your personal map</td><td><a href="https://github.com/Cassiiopeia/Tripgether-BE">BE</a> · <a href="https://github.com/Cassiiopeia/tripgether-FE">FE</a></td></tr>
+<tr><td><b>Re: WAVE</b></td><td>Choice-driven visual novel — your decisions shape the story</td><td><a href="https://bagel.suhsaechan.kr/">bagel.suhsaechan.kr</a> · <a href="https://github.com/bagle-ggul/Bagel-Backend">Repo</a></td></tr>
+</table>
 
 ---
 
 ## Open Source Modules
 
-| Module | | |
-|:-------|:--|--:|
-| **SUH-Logger** | AOP-based JSON logger · auto execution time tracking | [Repo](https://github.com/Cassiiopeia/suh-logger) |
-| **SUH-API-Log** | API changelog via JSON · auto Swagger display | [Repo](https://github.com/Cassiiopeia/suh-api-log) |
-| **SUH-Random-Engine** | 960K-combo nickname generator · gacha system | [Repo](https://github.com/Cassiiopeia/suh-random-engine) |
-| **SUH-AIder** | AI helper library for Spring Boot · OpenAI / Claude | [Repo](https://github.com/Cassiiopeia/SUH-AIder) |
+<table>
+<tr><td><b>SUH-Logger</b></td><td>AOP-based JSON logger · auto execution time tracking</td><td><a href="https://github.com/Cassiiopeia/suh-logger">Repo</a></td></tr>
+<tr><td><b>SUH-API-Log</b></td><td>API changelog via JSON · auto Swagger display</td><td><a href="https://github.com/Cassiiopeia/suh-api-log">Repo</a></td></tr>
+<tr><td><b>SUH-Random-Engine</b></td><td>960K-combo nickname generator · gacha system</td><td><a href="https://github.com/Cassiiopeia/suh-random-engine">Repo</a></td></tr>
+<tr><td><b>SUH-AIder</b></td><td>AI helper library for Spring Boot · OpenAI / Claude</td><td><a href="https://github.com/Cassiiopeia/SUH-AIder">Repo</a></td></tr>
+</table>
 
 ---
 
