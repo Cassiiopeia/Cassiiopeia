@@ -108,9 +108,9 @@
 
 **🐱 저의 GitHub 정보에요.** 
 
-> 📦 GitHub의 58.3 kB만큼의 저장소를 사용하고 있어요. 
+> 📦 GitHub의 58.4 kB만큼의 저장소를 사용하고 있어요. 
  > 
-> 🏆 6,171 만큼의 Contributions을 2026년에 했어요
+> 🏆 6,173 만큼의 Contributions을 2026년에 했어요
  > 
 > 🚫 구직중이지 않아요.
  > 
@@ -123,7 +123,7 @@
 ```text
 🌞 아침                     26716 commits       ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.79 % 
 🌆 낮　                     101993 commits      ⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   29.74 % 
-🌃 저녁                     149447 commits      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   43.58 % 
+🌃 저녁                     149449 commits      ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   43.58 % 
 🌙 밤　                     64768 commits       ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   18.89 % 
 ```
 📅 **제가 가장 생산적인 날은 일요일이에요.** 
@@ -135,7 +135,7 @@
 목요일                      44676 commits       ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   13.03 % 
 금요일                      41325 commits       ⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   12.05 % 
 토요일                      26882 commits       ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   07.84 % 
-일요일                      66273 commits       ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   19.33 % 
+일요일                      66275 commits       ⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   19.33 % 
 ```
 
 
@@ -176,12 +176,11 @@ Mac                      28 mins             ⬛⬛⬛⬛⬛⬛⬜⬜⬜⬜⬜�
 
 🔤 4,890,843 Input Tokens, 185,643 Output Tokens
 
-💵 $46.56 Estimated AI Cost This Week
+💵 $43.36 Estimated AI Cost This Week
 
 🧠 5 AI Sessions, 9 AI Prompts
 
 Opus                     2,633 lines         ⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛⬛   100.00 % 
-Sonnet                   0 lines             ⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜   00.00 % 
 
 🔎 AI Coding Insights:
 🤖 AI-Driven — 99.92% of written lines came from AI
@@ -207,7 +206,7 @@ JavaScript               4 repos             ⬛⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 ![Lines of Code chart](https://raw.githubusercontent.com/Cassiiopeia/Cassiiopeia/main/assets/bar_graph.png)
 
 
- Last Updated on 2026년 08월 15일 20:00:10 UTC UTC
+ Last Updated on 2026년 08월 16일 19:53:08 UTC UTC
 <!--END_SECTION:waka-->
 
 ---
