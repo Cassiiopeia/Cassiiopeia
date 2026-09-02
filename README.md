@@ -27,6 +27,14 @@
 
 ---
 
+## <img src="https://img.shields.io/badge/Awards-555555?style=for-the-badge&logo=awesomelists&logoColor=white" height="40"/>
+
+<table>
+<tr><td><b>🥇 1st Place</b></td><td><b>2026 Google I/O Extended: Hack the Beat</b> · GDG Campus Korea — 3-hour hackathon judged by AI agents driving the deployed site with Playwright. Built <b>Party Passport</b>, a QR-tagging icebreaker for parties</td><td><a href="https://github.com/Twin-Fang/Hack-the-Beat"><img src="https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white"/></a> <a href="https://twin-fang.github.io/Hack-the-Beat/"><img src="https://img.shields.io/badge/-4285F4?style=flat-square&logo=googlehome&logoColor=white"/></a> <a href="https://github.com/Twin-Fang/Hack-the-Beat/blob/main/docs/retrospective/en.md"><img src="https://img.shields.io/badge/Retro-7F7FD5?style=flat-square&logo=readme&logoColor=white"/></a></td></tr>
+</table>
+
+---
+
 ## <img src="https://img.shields.io/badge/Projects-555555?style=for-the-badge&logo=dask&logoColor=white" height="40"/>
 
 <table>
