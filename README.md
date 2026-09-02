@@ -30,7 +30,7 @@
 ## <img src="https://img.shields.io/badge/Awards-555555?style=for-the-badge&logo=awesomelists&logoColor=white" height="40"/>
 
 <table>
-<tr><td><b>🥇 1st Place</b></td><td><b>2026 Google I/O Extended: Hack the Beat</b> · GDG Campus Korea: Party Passport</td><td><a href="https://github.com/Twin-Fang/Hack-the-Beat"><img src="https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white"/></a> <a href="https://twin-fang.github.io/Hack-the-Beat/"><img src="https://img.shields.io/badge/-4285F4?style=flat-square&logo=googlehome&logoColor=white"/></a> <a href="https://lnkd.in/p/gfJcFfSd"><img src="https://img.shields.io/badge/Retrospective-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a></td></tr>
+<tr><td><b>🥇 1st Place</b></td><td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/google/google-original.svg" height="14" alt="Google"/> <b>2026 Google I/O Extended: Hack the Beat</b> · GDG Campus Korea: Party Passport</td><td><a href="https://github.com/Twin-Fang/Hack-the-Beat"><img src="https://img.shields.io/badge/-181717?style=flat-square&logo=github&logoColor=white"/></a> <a href="https://twin-fang.github.io/Hack-the-Beat/"><img src="https://img.shields.io/badge/-4285F4?style=flat-square&logo=googlehome&logoColor=white"/></a> <a href="https://lnkd.in/p/gfJcFfSd"><img src="https://img.shields.io/badge/Retrospective-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/></a></td></tr>
 </table>
 
 ---
