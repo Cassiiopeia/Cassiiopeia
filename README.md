@@ -116,9 +116,9 @@
 
 **🐱 저의 GitHub 정보에요.** 
 
-> 📦 GitHub의 202.5 kB만큼의 저장소를 사용하고 있어요. 
+> 📦 GitHub의 202.6 kB만큼의 저장소를 사용하고 있어요. 
  > 
-> 🏆 11,330 만큼의 Contributions을 2026년에 했어요
+> 🏆 11,755 만큼의 Contributions을 2026년에 했어요
  > 
 > 🚫 구직중이지 않아요.
  > 
@@ -165,7 +165,7 @@ HTML                     4 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 2026년 10월 17일 20:51:40 UTC UTC
+ Last Updated on 2026년 10월 18일 20:57:54 UTC UTC
 <!--END_SECTION:waka-->
 
 ---
