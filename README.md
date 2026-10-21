@@ -112,13 +112,13 @@
 
 ![AI Code Time](http://img.shields.io/badge/AI%20Code%20Time-240%20hrs%2054%20mins-blue?style=for-the-badge)
 
-![Profile Views](http://img.shields.io/badge/Profile%20Views-6-blue?style=for-the-badge)
+![Profile Views](http://img.shields.io/badge/Profile%20Views-5-blue?style=for-the-badge)
 
 **🐱 저의 GitHub 정보에요.** 
 
-> 📦 GitHub의 203.6 kB만큼의 저장소를 사용하고 있어요. 
+> 📦 GitHub의 211.2 kB만큼의 저장소를 사용하고 있어요. 
  > 
-> 🏆 12,242 만큼의 Contributions을 2026년에 했어요
+> 🏆 12,382 만큼의 Contributions을 2026년에 했어요
  > 
 > 🚫 구직중이지 않아요.
  > 
@@ -163,7 +163,7 @@ HTML                     4 repos             ⬛⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜�
 
 
 
- Last Updated on 2026년 10월 20일 21:48:08 UTC UTC
+ Last Updated on 2026년 10월 21일 21:54:54 UTC UTC
 <!--END_SECTION:waka-->
 
 ---
